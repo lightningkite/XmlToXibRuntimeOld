@@ -1,0 +1,22 @@
+{
+  "name": "XmlToXibRuntime",
+  "version": "0.1.0",
+  "summary": "A short description of XmlToXibRuntime.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/UnknownJoe796/XmlToXibRuntime",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "UnknownJoe796": "joseph@lightningkite.com"
+  },
+  "source": {
+    "git": "https://github.com/UnknownJoe796/XmlToXibRuntime.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "XmlToXibRuntime/Classes/**/*"
+}
