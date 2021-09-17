@@ -22,6 +22,9 @@
 		7C0D0F0B26F26896007D80D4 /* border.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0D0F0526F26896007D80D4 /* border.swift */; };
 		7C0D0F0C26F26896007D80D4 /* button_disabled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0D0F0626F26896007D80D4 /* button_disabled.swift */; };
 		7C0D0F0D26F26896007D80D4 /* button_accent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0D0F0726F26896007D80D4 /* button_accent.swift */; };
+		7C7B472826F4F21F001797DB /* TextXib.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C7B472726F4F21F001797DB /* TextXib.xib */; };
+		7C7B472A26F53BE2001797DB /* CustomTestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C7B472926F53BE2001797DB /* CustomTestView.xib */; };
+		7C7B472C26F53BEF001797DB /* CustomTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7B472B26F53BEF001797DB /* CustomTestView.swift */; };
 		A4138F397F54504136860227 /* libPods-XmlToXibRuntimeExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5918FABBC77FE959C290760B /* libPods-XmlToXibRuntimeExample.a */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +70,9 @@
 		7C0D0F0526F26896007D80D4 /* border.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = border.swift; sourceTree = "<group>"; };
 		7C0D0F0626F26896007D80D4 /* button_disabled.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = button_disabled.swift; sourceTree = "<group>"; };
 		7C0D0F0726F26896007D80D4 /* button_accent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = button_accent.swift; sourceTree = "<group>"; };
+		7C7B472726F4F21F001797DB /* TextXib.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextXib.xib; sourceTree = "<group>"; };
+		7C7B472926F53BE2001797DB /* CustomTestView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTestView.xib; sourceTree = "<group>"; };
+		7C7B472B26F53BEF001797DB /* CustomTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +136,9 @@
 				7C0D0ED726F26640007D80D4 /* Assets.xcassets */,
 				7C0D0ED926F26640007D80D4 /* LaunchScreen.storyboard */,
 				7C0D0EDC26F26640007D80D4 /* Info.plist */,
+				7C7B472726F4F21F001797DB /* TextXib.xib */,
+				7C7B472926F53BE2001797DB /* CustomTestView.xib */,
+				7C7B472B26F53BEF001797DB /* CustomTestView.swift */,
 			);
 			path = XmlToXibRuntimeExample;
 			sourceTree = "<group>";
@@ -294,9 +303,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C0D0EDB26F26640007D80D4 /* LaunchScreen.storyboard in Resources */,
+				7C7B472A26F53BE2001797DB /* CustomTestView.xib in Resources */,
 				7C0D0ED826F26640007D80D4 /* Assets.xcassets in Resources */,
 				7C0D0EFF26F26654007D80D4 /* podfile in Resources */,
 				7C0D0ED626F2663F007D80D4 /* Main.storyboard in Resources */,
+				7C7B472826F4F21F001797DB /* TextXib.xib in Resources */,
 				7C0D0F0826F26896007D80D4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -350,6 +361,7 @@
 				7C0D0F0926F26896007D80D4 /* R.swift in Sources */,
 				7C0D0F0A26F26896007D80D4 /* button_primary.swift in Sources */,
 				7C0D0ED326F2663F007D80D4 /* ViewController.swift in Sources */,
+				7C7B472C26F53BEF001797DB /* CustomTestView.swift in Sources */,
 				7C0D0ECF26F2663F007D80D4 /* AppDelegate.swift in Sources */,
 				7C0D0ED126F2663F007D80D4 /* SceneDelegate.swift in Sources */,
 				7C0D0F0C26F26896007D80D4 /* button_disabled.swift in Sources */,

@@ -29,11 +29,18 @@
                                     <action selector="testButtonTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jjp-c7-u2y"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QcR-WI-zcC" customClass="CustomTestView" customModule="XmlToXibRuntimeExample" customModuleProvider="target">
+                                <rect key="frame" x="8" y="384" width="398" height="0.0"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="Ba3-t1-eVE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="4I7-1J-gw9"/>
+                            <constraint firstItem="QcR-WI-zcC" firstAttribute="top" secondItem="Ba3-t1-eVE" secondAttribute="bottom" constant="8" id="a6d-j1-ThJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QcR-WI-zcC" secondAttribute="trailing" constant="8" id="bu9-aZ-Mqh"/>
+                            <constraint firstItem="QcR-WI-zcC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="fFW-Xg-p8h"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ba3-t1-eVE" secondAttribute="trailing" constant="8" id="kKb-cf-FPW"/>
                             <constraint firstItem="Ba3-t1-eVE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="uGq-wj-w6m"/>
                         </constraints>

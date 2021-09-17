@@ -1,6 +1,0 @@
-module XmlToXibRuntime {
-  umbrella header "XmlToXibRuntime-umbrella.h"
-
-  export *
-  module * { export * }
-}
