@@ -8,18 +8,20 @@
 import UIKit
 
 class ViewController: UIViewController {
-    @IBOutlet weak var testButton: UIButton!
-    @IBOutlet weak var testButtonHeight: NSLayoutConstraint!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-    }
-
-    @IBAction func testButtonTouch(_ sender: Any) {
-        UIView.animate(withDuration: 1, animations: {
-            self.testButtonHeight.constant += 10
-        })
+        
+        self.view.backgroundColor = .white
+        
+        let subview = CurrentTestXml(frame: .zero)
+        self.view.addSubview(subview)
+        subview.leadingAnchor.constraint(equalTo: self.view.leadingAnchor).isActive = true
+        subview.trailingAnchor.constraint(equalTo: self.view.trailingAnchor).isActive = true
+        subview.topAnchor.constraint(equalTo: self.view.topAnchor).isActive = true
+        subview.bottomAnchor.constraint(equalTo: self.view.bottomAnchor).isActive = true
+        print("Loaded, subview is \(subview) and superview is \(self.view)")
     }
     
 }

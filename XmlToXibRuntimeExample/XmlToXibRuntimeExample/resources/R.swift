@@ -10,27 +10,28 @@ import XmlToXibRuntime
 
 public enum R {
     public enum drawable {
+        public static func ic_android_black_24dp() -> CALayer { return CAImageLayer(UIImage(named: "ic_android_black_24dp.png")) }
+        public static func ic_send_black_24dp() -> CALayer { return CAImageLayer(UIImage(named: "ic_send_black_24dp.png")) }
+        public static func ic_arrow_back_white_24dp() -> CALayer { return CAImageLayer(UIImage(named: "ic_arrow_back_white_24dp.png")) }
         public static func test_drawable() -> CALayer { return CAImageLayer(UIImage(named: "test_drawable.png")) }
         public static func ic_launcher_foreground() -> CALayer { return CAImageLayer(UIImage(named: "ic_launcher_foreground.png")) }
         public static func ic_exposure_black_24dp() -> CALayer { return CAImageLayer(UIImage(named: "ic_exposure_black_24dp.png")) }
         public static func ic_launcher_background() -> CALayer { return CAImageLayer(UIImage(named: "ic_launcher_background.png")) }
-        public static func ic_android_black_24dp() -> CALayer { return CAImageLayer(UIImage(named: "ic_android_black_24dp.png")) }
-        public static func ic_send_black_24dp() -> CALayer { return CAImageLayer(UIImage(named: "ic_send_black_24dp.png")) }
         public static func ic_beach_access_black_24dp() -> CALayer { return CAImageLayer(UIImage(named: "ic_beach_access_black_24dp.png")) }
-        public static func ic_arrow_back_white_24dp() -> CALayer { return CAImageLayer(UIImage(named: "ic_arrow_back_white_24dp.png")) }
         public static let allEntries: Dictionary<String, ()->CALayer> = [
             "button_primary": button_primary,
             "border": border,
+            "ic_android_black_24dp": ic_android_black_24dp,
+            "ic_send_black_24dp": ic_send_black_24dp,
+            "ic_arrow_back_white_24dp": ic_arrow_back_white_24dp,
             "test_drawable": test_drawable,
             "button_accent": button_accent,
             "ic_launcher_foreground": ic_launcher_foreground,
             "ic_exposure_black_24dp": ic_exposure_black_24dp,
             "button_disabled": button_disabled,
             "ic_launcher_background": ic_launcher_background,
-            "ic_android_black_24dp": ic_android_black_24dp,
-            "ic_send_black_24dp": ic_send_black_24dp,
-            "ic_beach_access_black_24dp": ic_beach_access_black_24dp,
-            "ic_arrow_back_white_24dp": ic_arrow_back_white_24dp
+            "plain_border": plain_border,
+            "ic_beach_access_black_24dp": ic_beach_access_black_24dp
         ]
     }
     public enum string {
