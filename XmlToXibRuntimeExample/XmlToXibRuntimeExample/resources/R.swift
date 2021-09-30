@@ -82,6 +82,7 @@ public enum R {
         public static let colorAccentDark: UIColor = UIColor(named: "color_colorAccentDark")!
         public static let colorAccent: UIColor = UIColor(named: "color_colorAccent")!
         public static let calendar_range_middle_unavailable_bg: UIColor = UIColor(named: "color_calendar_range_middle_unavailable_bg")!
+        public static let linkedColor: UIColor = UIColor(named: "color_linkedColor")!
         public static let state_login_text: UIColor = UIColor(named: "color_state_login_text")!
         public static let state_login_textState: StateSelector<UIColor> = StateSelector(normal: R.color.colorPrimary, selected: nil, highlighted: nil, disabled: R.color.disabled, focused: nil)
         public static let calendar_range_middle_deactivated_bg: UIColor = UIColor(named: "color_calendar_range_middle_deactivated_bg")!
